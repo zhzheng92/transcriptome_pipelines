@@ -147,9 +147,8 @@ main_fun <- function()
 
 	cat("Your input arguments are listed as follows:\n")
 	print(input_file)
-	## the concise packages are needed in our analysis
+	## the concise packages are needed in the analysis
 	#concise_packages <- c("FactoMineR","ade4","adegraphics","factoextra","devtools")
-	##check and install and load packages which are required #In fact, website is not available for my account on this server, but I will keep it for study recording;
 	#ipak(concise_packages)
 	library("ade4")
 	library("adegraphics")
