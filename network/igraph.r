@@ -1,6 +1,6 @@
 args=commandArgs(T)
 if(length(args) !=3 && length(args) !=4){
-	print ("/annoroad/share/software/install/R-3.2.2/bin/Rscript igraph.r <Nodes> <Edges> <Outfile> <shape> alternative")
+	print ("/install/R-3.2.2/bin/Rscript igraph.r <Nodes> <Edges> <Outfile> <shape> alternative")
 	q()
 }
 
